@@ -1,0 +1,183 @@
+@import url("fonts.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "R700";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container,
+.container2 {
+  max-width: 1430px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1140px;
+}
+
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar__list-link {
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navbar__list-link:hover {
+  color: #EF4423;
+  transition: 0.3s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  position: relative;
+}
+
+.burger__checkbox{
+  opacity: 0;
+}
+.burger__img{
+  display: none;
+}
+
+.header__img {
+  text-align: center;
+  margin-bottom: 36px;
+  width: 100%;
+}
+
+.section__one {
+  display: flex;
+}
+
+
+.section__item-img {
+  width: 100%;
+}
+
+.section__one-info {
+  padding: 15px;
+  background: #B71C1C;
+}
+
+.section__one-item:nth-child(2) .section__one-info {
+  background: #6A1B9A;
+}
+
+.section__one-item:nth-child(3) .section__one-info {
+  background: #303F9F;
+}
+
+.section__one-item:nth-child(4) .section__one-info {
+  background: #00695C;
+}
+
+.section__item-img {
+  display: block;
+  height: 100%;
+}
+
+.section__one-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 350px;
+  width: 100%;
+}
+
+.section__item-title {
+  font-size: 19px;
+  line-height: 22.27px;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+.section__item-text {
+  font-size: 16px;
+  font-family: 'R400';
+  line-height: 18.75px;
+  text-align: left;
+  color: #EBEBEB;
+
+}
+
+.section__two__title {
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 22px;
+  color: #3A3838;
+}
+
+.section__two-item {
+
+  background: #EDEDED;
+  gap: 30px;
+  display: flex;
+}
+
+.section__two-item .container2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section__two-info {
+  max-width: 540px;
+  width: 100%;
+  padding: 20px 0 30px;
+}
+
+.section__two-item-title {
+  margin-bottom: 30px;
+}
+
+.section__two-item-text {
+  color: #686868;
+  font-size: 18px;
+  max-width: 540px;
+  width: 100%;
+  font-family: 'R400';
+  line-height: 21.09px;
+}
+
+.footer {
+  margin-top: 50px;
+  background: #3A3838;
+}
+
+.footer .navbar__list-link {
+  color: white;
+}
+
+.footer .navbar__list-link:hover {
+  color: #EF4423;
+}
+
+.footer {
+  display: flex;
+}
